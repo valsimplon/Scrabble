@@ -6,7 +6,7 @@ Piloté par des tests, le but va être de mettre en place une structure de donn�
 - de fournir la valeur d'un mot au scrabble (hors plateau et cases spécifiques lettre / mot compte double / triple)
 - de, pour une valeur donnée, fournir l'ensemble des lettres ayant cette valeur, présentées dans l'ordre alphabétique inverse
 
-Exemple de données : 
+Données compatibles avec les tests unitaires : 
 
 - A => 1
 - B => 3
