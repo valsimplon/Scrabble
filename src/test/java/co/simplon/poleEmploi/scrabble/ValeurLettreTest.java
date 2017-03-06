@@ -16,8 +16,8 @@ public class ValeurLettreTest {
 	}
 	
 	@Test
-	public void la_valeur_pour_Q_doit_etre_10() {
-		assertThat(10, equalTo(scrabble.getValeur('Q')));
+	public void la_valeur_pour_Q_doit_etre_8() {
+		assertThat(8, equalTo(scrabble.getValeur('Q')));
 	}
 	
 	@Test
@@ -26,8 +26,8 @@ public class ValeurLettreTest {
 	}
 	
 	@Test
-	public void la_valeur_pour_Y_doit_etre_4() {
-		assertThat(4, equalTo(scrabble.getValeur('Y')));
+	public void la_valeur_pour_Y_doit_etre_10() {
+		assertThat(10, equalTo(scrabble.getValeur('Y')));
 	}
 
 }
