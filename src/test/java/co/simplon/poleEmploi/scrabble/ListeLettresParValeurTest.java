@@ -28,12 +28,12 @@ public class ListeLettresParValeurTest {
 
 	@Test
 	public void la_liste_des_lettres_de_valeur_3_est_PMCB() {
-		assertThat("PMCB", equalTo(scrabble.getLettresDeValeur(3)));
+		assertThat("PCB", equalTo(scrabble.getLettresDeValeur(3)));
 	}
 
 	@Test
-	public void la_liste_des_lettres_de_valeur_10_est_ZQ() {
-		assertThat("ZQ", equalTo(scrabble.getLettresDeValeur(10)));
+	public void la_liste_des_lettres_de_valeur_10_est_ZYXWK() {
+		assertThat("ZYXWK", equalTo(scrabble.getLettresDeValeur(10)));
 	}
 
 }
