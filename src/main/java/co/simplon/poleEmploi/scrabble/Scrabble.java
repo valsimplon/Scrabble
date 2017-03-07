@@ -51,12 +51,12 @@ public class Scrabble {
 	}
 
 	public int getValeur(String string) {
-//		int valeurMot = 0;
-//		
-//		for (int i = 0; i < string.length(); i++) {
-//			valeurMot += getValeur(string[i]);
-//		}
-		return 0;
+		int valeurMot = 0;
+		
+		for (int i = 0; i < string.length(); i++) {
+			valeurMot += getValeur(string.charAt(i));
+		}
+		return valeurMot;
 	}
 
 	public String getLettresDeValeur(int i) {
