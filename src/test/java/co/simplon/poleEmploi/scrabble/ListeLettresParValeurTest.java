@@ -27,7 +27,7 @@ public class ListeLettresParValeurTest {
 	}
 
 	@Test
-	public void la_liste_des_lettres_de_valeur_3_est_PMCB() {
+	public void la_liste_des_lettres_de_valeur_3_est_PCB() {
 		assertThat("PCB", equalTo(scrabble.getLettresDeValeur(3)));
 	}
 
