@@ -3,7 +3,6 @@ package co.simplon.poleEmploi.scrabble;
 import java.util.Hashtable;
 import java.util.Map;
 import java.util.Map.Entry;
-import java.util.Set;
 
 public class Scrabble {
 	
